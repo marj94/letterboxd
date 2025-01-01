@@ -2,8 +2,8 @@ import scrapy
 import re
 
 # change accordingly
-username = "dericored"
-period = ["2020/01/01", "2022/01/01"] # [from, to] in YYYY/MM/DD
+username = "jmart94"
+period = ["2024/01/01", "2025/01/01"] # [from, to] in YYYY/MM/DD
 
 class LetterboxdSpider(scrapy.Spider):
     name = "diary"
